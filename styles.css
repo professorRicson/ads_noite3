@@ -141,7 +141,7 @@ form button {
 form button:hover {
     background-color: #0056b3;
 }
-/**/
+/*----------------PARCEIROS--------------*/
 body.parceiros {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -176,8 +176,8 @@ body.parceiros {
 }
 
 .parceiro img {
-    width: 1000px;
-    height: 1000px;
+    width: 100px;
+    height: 100px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
