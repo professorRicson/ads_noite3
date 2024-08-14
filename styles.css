@@ -141,3 +141,49 @@ form button {
 form button:hover {
     background-color: #0056b3;
 }
+/**/
+body.partners {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.partners-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.partners-section h2 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.partner {
+    width: 150px;
+    text-align: center;
+}
+
+.partner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.partner p {
+    margin-top: 10px;
+    color: #666;
+}
+
