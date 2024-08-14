@@ -142,14 +142,14 @@ form button:hover {
     background-color: #0056b3;
 }
 /**/
-body.partners {
+body.parceiros {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
-.partners-section {
+.parceiros-section {
     padding: 50px;
     text-align: center;
     background-color: #fff;
@@ -158,31 +158,31 @@ body.partners {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.partners-section h2 {
+.parceiros-section h2 {
     margin-bottom: 40px;
     color: #333;
 }
 
-.partners-grid {
+.parceiros-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
 
-.partner {
+.parceiro {
     width: 150px;
     text-align: center;
 }
 
-.partner img {
+.parceiro img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.partner p {
+.parceiro p {
     margin-top: 10px;
     color: #666;
 }
