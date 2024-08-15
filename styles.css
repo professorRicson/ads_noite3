@@ -187,21 +187,6 @@ body.parceiros {
     color: #666;
 }
 
-.parceiros-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.parceiro {
-    width: 150px;
-    text-align: center;
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    padding: 10px;
-}
-
 /* Estiliza a seção de fotos */
 .photos-grid {
     display: flex;
@@ -224,11 +209,4 @@ body.parceiros {
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Adiciona bordas arredondadas às imagens */
     object-fit: cover; /* Mantém a proporção da imagem */
-}
-
-
-.parceiro img {
-    width: 100px; /* Ajusta o tamanho da imagem */
-    height: 100px; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Adiciona bordas arredondadas às imagens */
 }

@@ -16,22 +16,27 @@
             <a href="index.html">Início</a> 
             <a href="posts.html">Posts</a>
             <a href="sobre.html">Sobre</a>
-
+            <a href="parceiros.html">Parceiros</a>
         </nav>
     </header>
     <main class="main">
-        <h1 class="title">Entre em contato Conosco</h1>
+        <h1 class="title">Entre em Contato Conosco</h1>
         <form action="mailto:contato@amaslgbt.com.br" method="post" enctype="text/plain">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
+            
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
+            
             <label for="telefone">Telefone:</label>
-            <input type="telefone" id="telefone" name="telefone" required>   
-            <label for="endereco">Endereco:</label>
-            <input type="endereco" id="endereco" name="endereco" required>        
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+            
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
             <button type="submit">Enviar</button>
         </form>
     </main>
