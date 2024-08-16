@@ -205,7 +205,7 @@ body.parceiros {
 }
 
 .photo img {
-    width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
+    width: 80px; /* Ajusta a largura da imagem para preencher o contêiner */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Adiciona bordas arredondadas às imagens */
     object-fit: cover; /* Mantém a proporção da imagem */
