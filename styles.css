@@ -196,12 +196,12 @@ body.parceiros {
 }
 
 .photo {
-    width: 150px; /* Ajuste a largura da caixa conforme necessário */
+    width: 150px;
     text-align: center;
-    background-color: #fff; /* Adiciona um fundo branco para contraste */
-    border-radius: 8px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
-    padding: 10px; /* Adiciona padding interno */
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
 }
 
 .photo img {
