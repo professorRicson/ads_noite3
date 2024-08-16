@@ -60,7 +60,7 @@ body {
 
 .main {
     flex: 1; /* Flex grow to take available space */
-    width: 100%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,14 +69,14 @@ body {
 }
 
 .main .image {
-    width: 100%;
-    max-width: 1200px; /* Adjust max-width as needed */
+    width: auto;
+    max-width: auto; /* Adjust max-width as needed */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .main .image img {
-    width: 100%;
+    width: auto;
     height: auto;
     border-radius: 10px;
 }
